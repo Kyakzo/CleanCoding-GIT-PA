@@ -93,7 +93,7 @@ void print_graph(GPH* graph) {
     int i;
     for (i = 0; i < graph->vertices; i++) {
         NODE* temp = graph->adjacency_lists[i];
-        printf("Adjacency list of vertex %d: ", i);
+        printf("Lista adiacenta varf %d: ", i);
         while (temp) {
             printf("%d ", temp->data);
             temp = temp->next;
