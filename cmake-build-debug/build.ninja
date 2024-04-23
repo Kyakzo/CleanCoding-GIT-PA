@@ -49,12 +49,6 @@ cmake_ninja_workdir = C$:/Users/alex2/CleanCoding-GIT-PA/cmake-build-debug/
 
 build cmake_object_order_depends_target_CleanCoding_GIT_PA: phony || CMakeFiles/CleanCoding_GIT_PA.dir
 
-build CMakeFiles/CleanCoding_GIT_PA.dir/example1.c.obj: C_COMPILER__CleanCoding_GIT_PA_unscanned_Debug C$:/Users/alex2/CleanCoding-GIT-PA/example1.c || cmake_object_order_depends_target_CleanCoding_GIT_PA
-  DEP_FILE = CMakeFiles\CleanCoding_GIT_PA.dir\example1.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CleanCoding_GIT_PA.dir
-  OBJECT_FILE_DIR = CMakeFiles\CleanCoding_GIT_PA.dir
-
 build CMakeFiles/CleanCoding_GIT_PA.dir/example2.c.obj: C_COMPILER__CleanCoding_GIT_PA_unscanned_Debug C$:/Users/alex2/CleanCoding-GIT-PA/example2.c || cmake_object_order_depends_target_CleanCoding_GIT_PA
   DEP_FILE = CMakeFiles\CleanCoding_GIT_PA.dir\example2.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
@@ -69,7 +63,7 @@ build CMakeFiles/CleanCoding_GIT_PA.dir/example2.c.obj: C_COMPILER__CleanCoding_
 #############################################
 # Link the executable CleanCoding_GIT_PA.exe
 
-build CleanCoding_GIT_PA.exe: C_EXECUTABLE_LINKER__CleanCoding_GIT_PA_Debug CMakeFiles/CleanCoding_GIT_PA.dir/example1.c.obj CMakeFiles/CleanCoding_GIT_PA.dir/example2.c.obj
+build CleanCoding_GIT_PA.exe: C_EXECUTABLE_LINKER__CleanCoding_GIT_PA_Debug CMakeFiles/CleanCoding_GIT_PA.dir/example2.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CleanCoding_GIT_PA.dir

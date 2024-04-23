@@ -4,5 +4,4 @@ project(CleanCoding_GIT_PA C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(CleanCoding_GIT_PA
-        example1.c
         example2.c)
