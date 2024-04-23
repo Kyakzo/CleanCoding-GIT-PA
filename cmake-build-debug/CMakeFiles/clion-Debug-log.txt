@@ -1,0 +1,4 @@
+C:\Users\alex2\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/alex2/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\Users\alex2\CleanCoding-GIT-PA -B C:\Users\alex2\CleanCoding-GIT-PA\cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/alex2/CleanCoding-GIT-PA/cmake-build-debug
